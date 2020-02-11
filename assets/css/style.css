@@ -8,3 +8,61 @@ body {
     color: rgb(239, 224, 128);
 }
 
+.author:hover {
+    cursor: move;
+}
+
+.section-title {
+    font-size: 60px;
+    color: rgb(38, 248, 38);
+}
+
+
+.project {
+    border: 1px solid rgb(255, 255, 255);
+
+    /*
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    */
+
+    /*
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(255, 255, 255);
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(255, 255, 255);
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(255, 255, 255);
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(255, 255, 255);
+    */
+}
+
+.project-title {
+    font-size: 30px;
+    color: rgb(62, 62, 232);
+}
+
+.project p {
+    font-size: 20px;
+}
+
+.project a {
+    color: rgb(229, 63, 152);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project a:hover {
+    font-weight: normal;
+    border-bottom: 5px dotted rgb(255, 255, 0);
+}
