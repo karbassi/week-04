@@ -7,10 +7,11 @@ body {
 body {
     background-color: rgb(224, 151, 78);
     color: white;
-    border: 50px solid white;
     padding: 25px;
     /* margin: 50px; */
 }
+
+/* Author */
 
 .author {
     font-size: 90px;
@@ -26,6 +27,14 @@ body {
     color: rgb(38, 248, 38);
 }
 
+/* Projects Section */
+
+.projects {
+    display: grid;
+
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(2, 300px 1fr);
+}
 
 .project {
     border: 1px solid rgb(255, 255, 255);
